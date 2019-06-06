@@ -2,64 +2,80 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="freelancer.css">
 </head>
 
 <body>
-    <h1>Learning R: 2019 Summer Workshop for NYU CDSC Lab</h1>
+  <section class="page-section mb-0" id="about">
+        <div class="container">  
+            <h1>Learning R: 2019 Summer Workshop for NYU CDSC Lab</h1>
 
-    <p>
-        This workshop will help you to learn the fundamentals of R needed to manipulate, visualize, and describe your data. This workshop has a particular 
-        emphasis on producing clean and reproducible code in line with coding and open science best practices. Due to time limitations, we will not be able 
-        to go over how to do statistical modeling in R; however, I will provide a series of resources at the end of this list that you can look over on your
-        own.
-    </p> 
+            <p>
+                This workshop will help you to learn the fundamentals of R needed to manipulate, visualize, and describe your data. This workshop has a particular 
+                emphasis on producing clean and reproducible code in line with coding and open science best practices. Due to time limitations, we will not be able 
+                to go over how to do statistical modeling in R; however, I will provide a series of resources at the end of this list that you can look over on your
+                own.
+             
 
-    <h4>Week 1: Intro to R </h4>
-    <p><a href="https://gupsych.github.io/data_skills/01_intro.html">Learning basics about R (Part 1)</a></p>
-    <p><a href="https://gupsych.github.io/data_skills/02_intro.html">Learning basics about R (Part 2)</a></p>
-    <p><a href="https://psyr.org/packages.html">More about packages</a></p>
-    <p><a href="https://psyr.org/variables.html">More about variables</a></p>
-    <p><a href="https://psyr.org/vectors.html">More about vectors</a></p>
+            <h4>Week 1: Intro to R </h4>
+            <ul>
+                <a href="https://gupsych.github.io/data_skills/01_intro.html" target="_blank">Learning basics about R (Part 1)</a><br>
+                <a href="https://gupsych.github.io/data_skills/02_intro.html" target="_blank">Learning basics about R (Part 2)</a><br>
+                <a href="https://psyr.org/packages.html" target="_blank">More about packages</a><br>
+                <a href="https://psyr.org/variables.html" target="_blank">More about variables</a><br>
+                <a href="https://psyr.org/vectors.html" target="_blank">More about vectors</a><br>
+            </ul>
+            <h4>Week 2: Data Visualization</h4>
+            <ul>
+                <a href="http://socviz.co/lookatdata.html#lookatdata" target="_blank">What makes a good plot?</a><br>
+                <a href="https://gupsych.github.io/data_skills/03_ggplot.html" target="_blank">Making plots</a><br>
+                <a href="https://r4ds.had.co.nz/data-visualisation.html" target="_blank">Getting a better understanding of the code used to make plots (Chapter 3, especially 3.3 - 3.10)</a><br>
+                <a href="https://www.r-graph-gallery.com/" target="_blank">Examples of plots with corresponding R code</a><br>
+                <a href="https://www.data-to-viz.com/" target="_blank">Resource for helping you select the best way to visualize your data</a><br>
+            </ul>
 
-    <h4>Week 2: Data Visualization</h4>
-    <p><a href="http://socviz.co/lookatdata.html#lookatdata">What makes a good plot?</a></p>
-    <p><a href="https://gupsych.github.io/data_skills/03_ggplot.html">Making plots</a></p>
-    <p><a href="https://r4ds.had.co.nz/data-visualisation.html">Getting a better understanding of the code used to make plots (Chapter 3, especially 3.3 - 3.10)</a></p>
-    <p><a href="https://www.r-graph-gallery.com/">Examples of plots with corresponding R code</a></p>
-    <p><a href="https://www.data-to-viz.com/">Resource for helping you select the best way to visualize your data</a></p>
 
-    <h4>Week 3: Data Wrangling Part 1: Learning the fundamentals of tidyr</h4>
-    <p><a href="https://gupsych.github.io/data_skills/04_wrangling.html">Learning tidyr (Read Chapter 12 and 18 listed in the prep section)</a></p>
-    <p><a href="https://psyr.org/manipulating-data.html">More about vectors</a></p>
+            <h4>Week 3: Data Wrangling Part 1: Learning the fundamentals of tidyr</h4>
+            <ul>
+                <a href="https://gupsych.github.io/data_skills/04_wrangling.html" target="_blank">Learning tidyr (Read Chapter 12 and 18 listed in the prep section)</a><br>
+                <a href="https://psyr.org/manipulating-data.html" target="_blank">More about vectors</a><br>
+            </ul>
+            <h4>Week 4: Data Wrangling Part 2: Learning the fundamentals of dplyr</h4>
+            <ul>
+                <a href="https://psyr.org/describing-data.html" target="_blank">Describing data</a><br>
+                <a href="https://gupsych.github.io/data_skills/05_wrangling.html" target="_blank">Learning the main 6 dplyr verbs</a><br>
+            </ul>
 
-    <h4>Week 4: Data Wrangling Part 2: Learning the fundamentals of dplyr</h4>
-    <p><a href="https://psyr.org/describing-data.html">Describing data</a></p>
-    <p><a href="https://gupsych.github.io/data_skills/05_wrangling.html">More about vectors</a></p>
+            <h4>Week 5: Joining Data: More fundamentals of dplyr</h4>
+            <ul>
+                <a href="https://gupsych.github.io/data_skills/06_joins.html" target="_blank">Joining data using the dplyr's join verbs</a><br>
+            </ul>
 
-    <h4>Week 5: Data Visualization</h4>
-    <p><a href="https://gupsych.github.io/data_skills/06_joins.html">More about vectors</a></p>
-    <p><a href="http://socviz.co/lookatdata.html#lookatdata">More about vectors</a></p>
-    <p><a href="https://www.r-graph-gallery.com/">More about vectors</a></p>
+            <h4>Week 6: Iterations, Loops, Branches, and Functions</h4>
+            <ul>
+                <a href="https://psyr.org/loops.html" target="_blank">Using loops in R</a><br>
+                <a href="https://psyr.org/branches.html" target="_blank">Using branches in R</a><br>
+                <a href="https://psyr.org/functions.html" target="_blank">Creating your own functions in R</a><br>
+                <a href="https://gupsych.github.io/data_skills/07_functions.html" target="_blank">Iterating and more practice creating your own functions in R</a><br>
+            </ul>
 
-    <h4>Week 6: Iterations, Loops, Branches, and Functions</h4>
-    <p><a href="https://gupsych.github.io/data_skills/07_functions.html">Learning basics about R</a></p>
-    <p><a href="https://psyr.org/loops.html">Learning basics about R</a></p>
-    <p><a href="https://psyr.org/branches.html">Learning basics about R</a></p>
-    <p><a href="https://psyr.org/functions.html">Learning basics about R</a></p>
-
-    <h4>Week 7: Reproducible Workflow</h4>
-    <p><a href="https://gupsych.github.io/data_skills/10_reproducibility.html">Learning basics about R</a></p>
-    <p><a href="https://psyr.org/loops.html">Learning basics about R</a></p>
-    <p><a href="https://psyr.org/branches.html">Learning basics about R</a></p>
-    <p><a href="https://psyr.org/functions.html">Learning basics about R</a></p>
-
-    <h4>Week 8: Version Control</h4>
-    <p><a href="https://happygitwithr.com/big-picture.html">Why GitHub?</a></p>
-    <p><a href="https://happygitwithr.com/install-intro.html">Installing Git (Read Chapters 4 - 7; 8 is optional)</a></p>
-    <p><a href="https://happygitwithr.com/connect-intro.html">Connecting GitHub and RStudio (Chapters 9 & 12; 14 is helpful if you are having problems connecting!)</a></p>
-    <p><a href="https://happygitwithr.com/usage-intro.html">Using GitHub to store R code (Read through Chapter 15; 16 and 17 are for your reference for future projects)</a></p>
-    <p><a href="https://happygitwithr.com/git-intro.html">Basics of Git (Chapter 20; Chapter 21 - 23 for more advanced stuff)</a></p>
-
+            <h4>Week 7: Reproducible Workflow and Other Best Practices</h4>
+            <ul>
+                <a href="https://gupsych.github.io/data_skills/10_reproducibility.html" target="_blank">Creating reproducible code in R</a><br>
+                <a href="https://whattheyforgot.org/safe-paths.html" target="_blank">How to properly set paths</a><br>
+                <a href="https://whattheyforgot.org/how-to-name-files.html" target="_blank">How to name files</a><br>
+                <a href="https://whattheyforgot.org/debugging-r-code.html" target="_blank">How to debug your R code</a><br>
+            </ul>
+            
+            <h4>Week 8: Version Control</h4>
+            <ul>
+                <a href="https://happygitwithr.com/big-picture.html" target="_blank">Why GitHub?</a><br>
+                <a href="https://happygitwithr.com/install-intro.html" target="_blank">Installing Git (Read Chapters 4 - 7; 8 is optional)</a><br>
+                <a href="https://happygitwithr.com/connect-intro.html" target="_blank">Connecting GitHub and RStudio (Chapters 9 & 12; 14 is helpful if you are having problems connecting!)</a><br>
+                <a href="https://happygitwithr.com/usage-intro.html" target="_blank">Using GitHub to store R code (Read through Chapter 15; 16 and 17 are for your reference for future projects)</a><br>
+                <a href="https://happygitwithr.com/git-intro.html" target="_blank">Basics of Git (Chapter 20; Chapter 21 - 23 for more advanced stuff)</a><br>
+            </ul>
+        </div>
+    </section>
 </body>
 </html>
