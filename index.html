@@ -3,10 +3,13 @@
 
 <head>
     <link rel="stylesheet" href="freelancer.css">
+    <link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
 </head>
 
 <body>
-  <section class="page-section mb-0" id="about">
+  <section class="page-section mb-0" id="workshop">
         <div class="container">  
             <h1>Learning R: 2019 Summer Workshop for NYU CDSC Lab</h1>
 
@@ -28,142 +31,207 @@
 
                 And a motto to live by as you move forward in R: <b>When in doubt, Google is your best friend.</b>
             </p>
-             
-            <h5>Week 0: Installing R</h5>
-            <ul>
-                <a href="https://cran.r-project.org/" target="_blank">Downloading R:</a> Download the appropriate version for your operating system (Mac or Windows)<br>
-                <a href="https://www.rstudio.com/home/" target="_blank">Downloading RStudio:</a> RStudio to makes it much easier to code in R
-            </ul>
+            <br>
+            <h3>Getting your data ready for statistical analysis</h3>
+            <button class="accordion">Week 0: Installing R</button>
+            <div class="panel">
+                <ul>
+                    <a href="https://cran.r-project.org/" target="_blank">Downloading R:</a> Download the appropriate version for your operating system (Mac or Windows)<br>
+                    <a href="https://www.rstudio.com/home/" target="_blank">Downloading RStudio:</a> RStudio to makes it much easier to code in R
+                </ul>
+            </div>
 
-            <h4>Week 1: Intro to R </h4>
-            <ul>
-                <i>Reading + exercises:</i> <a href="https://gupsych.github.io/data_skills/01_intro.html" target="_blank">Learning basics about R (Part 1)</a><br>
-                <i>Reading + exercises:</i> <a href="https://gupsych.github.io/data_skills/02_intro.html" target="_blank">Learning basics about R (Part 2)</a><br>
-                <i>Reading:</i> <a href="https://psyr.org/packages.html" target="_blank">More about packages</a><br>
-                <i>Reading:</i> <a href="https://psyr.org/variables.html" target="_blank">More about variables</a><br>
-                <i>Reading:</i> <a href="https://psyr.org/vectors.html" target="_blank">More about vectors</a><br>
-            </ul>
-            <h4>Week 2: Data Visualization</h4>
-            <ul>
-                <i>Reading:</i> <a href="http://socviz.co/lookatdata.html#lookatdata" target="_blank">What makes a good plot?</a><br>
-                <i>Notes + exercises:</i> <a href="https://gupsych.github.io/data_skills/03_ggplot.html" target="_blank">Making plots</a><br>
-                <i>Reading + exercises:</i> <a href="https://r4ds.had.co.nz/data-visualisation.html" target="_blank">Getting a better understanding of the code used to make plots (Chapter 3, especially 3.3 - 3.10)</a><br>
-                <i>Resource:</i> <a href="https://www.r-graph-gallery.com/" target="_blank">Examples of plots with corresponding R code</a><br>
-                <i>Resource:</i> <a href="https://www.data-to-viz.com/" target="_blank">Resource for helping you select the best way to visualize your data</a><br>
-                <i>Resource:</i> <a href="https://r-graphics.org/" target="_blank">R Graphics Cookbook:</a> A practical guide to help you build graphs in R<br>     
-            </ul>
+            <button class="accordion">Week 1: Intro to R </button>
+            <div class="panel">
+                <ul>
+                    <i>Reading + exercises:</i> <a href="https://gupsych.github.io/data_skills/01_intro.html" target="_blank">Learning basics about R (Part 1)</a><br>
+                    <i>Reading + exercises:</i> <a href="https://gupsych.github.io/data_skills/02_intro.html" target="_blank">Learning basics about R (Part 2)</a><br>
+                    <i>Reading:</i> <a href="https://psyr.org/packages.html" target="_blank">More about packages</a><br>
+                    <i>Reading:</i> <a href="https://psyr.org/variables.html" target="_blank">More about variables</a><br>
+                    <i>Reading:</i> <a href="https://psyr.org/vectors.html" target="_blank">More about vectors</a><br>
+                    <i>Resource:</i> <a href="assets/rstudio-ide.pdf" target="_blank">Cheat sheet on how to use RStudio</a><br>
+                    <i>Resource:</i> <a href="assets/base-r.pdf" target="_blank">Cheat sheet on basic R functions</a>
+                </ul>            
+            </div>
 
 
-            <h4>Week 3: Data Wrangling Part 1: Learning the fundamentals of tidyr</h4>
-            <ul>
-                <i>Reading:</i> <a href="https://r4ds.had.co.nz/tidy-data.html" target="_blank">Tidy Data</a><br>
-                <i>Reading:</i> <a href="https://r4ds.had.co.nz/tidy-data.html" target="_blank">Using pipes to tidy data</a><br>
-                <i>Notes + exercises:</i> <a href="https://gupsych.github.io/data_skills/04_wrangling.html" target="_blank">Learning tidyr</a><br>
-                <i>Reading (optional):</i> <a href="https://psyr.org/manipulating-data.html" target="_blank">Manipulating your data using tidyr</a> (this reading provides similar information as the other readings, but may be useful to you if the other materials weren't clear)<br>
-            </ul>
-            <h4>Week 4: Data Wrangling Part 2: Learning the fundamentals of dplyr</h4>
-            <ul>
-                <i>Reading:</i> <a href="https://psyr.org/describing-data.html" target="_blank">Describing data</a><br>
-                <i>Reading + exercises:</i> <a href="https://r4ds.had.co.nz/transform.html" target="_blank">Data transformation</a><br>
-                <i>Notes + exercises:</i> <a href="https://gupsych.github.io/data_skills/05_wrangling.html" target="_blank">Learning the main 6 dplyr verbs</a><br>
-            </ul>
+            <button class="accordion">Week 2: Data Visualization</button>
+            <div class="panel">
+                <ul>
+                    <i>Reading:</i> <a href="http://socviz.co/lookatdata.html#lookatdata" target="_blank">What makes a good plot?</a><br>
+                    <i>Notes + exercises:</i> <a href="https://gupsych.github.io/data_skills/03_ggplot.html" target="_blank">Making plots</a><br>
+                    <i>Reading + exercises:</i> <a href="https://r4ds.had.co.nz/data-visualisation.html" target="_blank">Getting a better understanding of the code used to make plots (Chapter 3, especially 3.3 - 3.10)</a><br>
+                    <i>Resource:</i> <a href="https://www.r-graph-gallery.com/" target="_blank">Examples of plots with corresponding R code</a><br>
+                    <i>Resource:</i> <a href="https://www.data-to-viz.com/" target="_blank">Resource for helping you select the best way to visualize your data</a><br>
+                    <i>Resource:</i> <a href="https://r-graphics.org/" target="_blank">R Graphics Cookbook:</a> A practical guide to help you build graphs in R<br>
+                    <i>Resource:</i> <a href="assets/data-visualization-2.1.pdf" target="_blank">Cheat sheet on data visualization</a>
+                </ul>
+            </div>
 
-            <h4>Week 5: Joining Data: More fundamentals of dplyr</h4>
-            <ul>
-                <i>Reading + exercises:</i> <a href="https://r4ds.had.co.nz/relational-data.html" target="_blank">Relational data</a><br>
-                <i>Notes + exercises:</i> <a href="https://gupsych.github.io/data_skills/06_joins.html" target="_blank">Joining data using the dplyr's join verbs</a><br>
-            </ul>
-
-            <h4>Week 6: Iterations, Loops, Branches, and Functions</h4>
-            <ul>
-                <i>Reading + exercises:</i> <a href="https://psyr.org/loops.html" target="_blank">Using loops in R</a><br>
-                <i>Reading + exercises:</i> <a href="https://psyr.org/branches.html" target="_blank">Using branches in R</a><br>
-                <i>Reading + exercises:</i> <a href="https://psyr.org/functions.html" target="_blank">Creating your own functions in R</a><br>
-                <i>Notes + exercises:</i> <a href="https://gupsych.github.io/data_skills/07_functions.html" target="_blank">Iterating and more practice creating your own functions in R</a><br>
-                <i>Reading (optional):</i> <a href="https://r4ds.had.co.nz/iteration.html" target="_blank">More about loops and iterating in R</a><br>
-                <i>Reading (optional):</i> <a href="https://r4ds.had.co.nz/functions.html" target="_blank">More about writing your own functions in R</a><br>
-            </ul>
-
-            <h4>Week 7: Reproducible Workflow and Other Best Practices</h4>
-            <ul>
-                <i>Reading:</i> <a href="https://r4ds.had.co.nz/r-markdown.html#chunk-name" target="_blank">Using R Markdown</a><br>
-                <i>Notes + exercises:</i> <a href="https://gupsych.github.io/data_skills/10_reproducibility.html" target="_blank">Creating reproducible code in R</a><br>
-                <i>Reading:</i> <a href="https://whattheyforgot.org/safe-paths.html" target="_blank">How to properly set paths</a><br>
-                <i>Slides:</i>> <a href="https://whattheyforgot.org/how-to-name-files.html" target="_blank">How to name files</a><br>
-                <i>Reading:</i> <a href="https://whattheyforgot.org/debugging-r-code.html" target="_blank">How to debug your R code</a><br>
-            </ul>
+            <button class="accordion">Week 3: Data Wrangling Part 1: Learning the fundamentals of tidyr</button>
+            <div class="panel">
+                <ul>
+                    <i>Reading:</i> <a href="https://r4ds.had.co.nz/tidy-data.html" target="_blank">Tidy Data</a><br>
+                    <i>Reading:</i> <a href="https://r4ds.had.co.nz/tidy-data.html" target="_blank">Using pipes to tidy data</a><br>
+                    <i>Notes + exercises:</i> <a href="https://gupsych.github.io/data_skills/04_wrangling.html" target="_blank">Learning tidyr</a><br>
+                    <i>Reading (optional):</i> <a href="https://psyr.org/manipulating-data.html" target="_blank">Manipulating your data using tidyr</a> (this reading provides similar 
+                    information as the other readings, but may be useful to you if the other materials weren't clear)<br>
+                    <i>Resource:</i> <a href="assets/data-import.pdf" target="_blank">Cheat sheet on importing and tidying data</a>
+                    <i>Resource:</i> <a href="assets/lubridate.pdf" target="_blank">Cheat sheet on processing dates using lubridate</a>
+                </ul>
+            </div>
             
-            <h4>Week 8: Version Control</h4>
+            <button class="accordion">Week 4: Data Wrangling Part 2: Learning the fundamentals of dplyr</button>
+            <div class="panel">
             <ul>
-                <i>Reading:</i> <a href="https://happygitwithr.com/big-picture.html" target="_blank">Why GitHub?</a><br>
-                <i>Reading + exercises:</i> <a href="https://happygitwithr.com/install-intro.html" target="_blank">Installing Git (Read Chapters 4 - 7; 8 is optional)</a><br>
-                <i>Reading + exercises:</i> <a href="https://happygitwithr.com/connect-intro.html" target="_blank">Connecting GitHub and RStudio (Chapters 9 & 12; 14 is helpful if you are having problems connecting!)</a><br>
-                <i>Reading + exercises:</i> <a href="https://happygitwithr.com/usage-intro.html" target="_blank">Using GitHub to store R code (Read through Chapter 15; 16 and 17 are for your reference for future projects)</a><br>
-                <i>Reading + exercises:</i> <a href="https://happygitwithr.com/git-intro.html" target="_blank">Basics of Git (Chapter 20; Chapter 21 - 23 for more advanced stuff)</a><br>
-            </ul>
-
-            <h4>Other topics:</h4>
-
-            <h5>Cheat sheets:</h5>
-            <ul>
-                <i>Resource:</i> <a href="https://www.rstudio.com/resources/cheatsheets/" target="_blank">Various cheat sheets</a> on a range of topics, from 
-                <a href="https://www.rstudio.com/resources/cheatsheets/#dplyr" target="_blank">dplyr</a>, 
-                <a href="https://www.rstudio.com/resources/cheatsheets/#ggplot2" target="_blank">ggplot</a>, 
-                <a href="https://www.rstudio.com/resources/cheatsheets/#rmarkdown" target="_blank">R Markdown</a>, and more!
-            </ul>
-
-            <h5>Statistics:</h5>
-            <h6>Introductory</h6>
-            <ul>
-                <i>Reading:</i> <a href="https://learningstatisticswithr.com/book/" target="_blank">Learning statistics with R: A tutorial for psychology students</a>: 
-                Great book for learning how to do the stats from an introductory stats course in R<br>
-                <ul>
-                    Chapter 1: <a href="https://learningstatisticswithr.com/book/why-do-we-learn-statistics.html" target="_blank">Why do we learn statistics?</a><br> 
-                    Chapter 2: <a href="https://learningstatisticswithr.com/book/studydesign.html" target="_blank">Introduction to research design</a><br> 
-                    Chapter 5: <a href="https://learningstatisticswithr.com/book/descriptives.html" target="_blank">Descriptive statistics</a><br> 
-                    Chapter 9 - 11: <a href="https://learningstatisticswithr.com/book/part-iv-statistical-theory.html" target="_blank">Statistical theory:</a> 
-                    <a href="https://learningstatisticswithr.com/book/probability.html" target="_blank">Introduction to probability,</a> 
-                    <a href="https://learningstatisticswithr.com/book/estimation.html" target="_blank">Estimating unknown quantities from a sample,</a> and 
-                    <a href="https://learningstatisticswithr.com/book/hypothesistesting.html" target="_blank">Hypothesis testing</a><br> 
-                    Chapter 12 - 16: Statistical tools: 
-                    <a href="https://learningstatisticswithr.com/book/chisquare.html" target="_blank">Categorical data analysis,</a> 
-                    <a href="https://learningstatisticswithr.com/book/ttest.html" target="_blank">Comparing two means,</a> 
-                    <a href="https://learningstatisticswithr.com/book/anova.html" target="_blank">Comparing several means,</a> 
-                    <a href="https://learningstatisticswithr.com/book/regression.html" target="_blank">Linear regression,</a> and 
-                    <a href="https://learningstatisticswithr.com/book/anova2.html" target="_blank">Factorial ANOVA</a><br> 
-                    Chapter 17: <a href="https://learningstatisticswithr.com/book/bayes.html" target="_blank">Bayesian statistics</a><br> 
+                    <i>Reading:</i> <a href="https://psyr.org/describing-data.html" target="_blank">Describing data</a><br>
+                    <i>Reading + exercises:</i> <a href="https://r4ds.had.co.nz/transform.html" target="_blank">Data transformation</a><br>
+                    <i>Notes + exercises:</i> <a href="https://gupsych.github.io/data_skills/05_wrangling.html" target="_blank">Learning the main 6 dplyr verbs</a><br>
+                    <i>Resource:</i> <a href="assets/data-transformation.pdf" target="_blank">Cheat sheet on data transformation with dplyr</a>
                 </ul>
-                <i>Book:</i> <a href="assets/discoveringstatistics.pdf" target="_blank">Discovering statistics with R</a>: Covers similar content as <i>Learning statistics with R</i> plus much more<br>
-                <i>Exercises:</i> <a href="http://milton-the-cat.rocks/home/adventr.html" target="_blank">Interactive tutorials for learning how to do statistics in R</a> (companion to 
-                <a href="https://www.discoveringstatistics.com/books/an-adventure-in-statistics/" target="_blank">An Adventure in Statistics</a>, a book by Andy Fields. Book is not free, but the tutorials are!)<br>
-            </ul>
+            </div>
 
-            <h6>Advanced</h6>
-            <ul>
-                <i>Reading + exercises:</i> <a href="https://m-clark.github.io/mixed-models-with-R" target="_blank">Mixed models in R:</a> Tutorial on how to build mixed models in R (best for people who already have some understanding of what mixed models are)<br>
-                <i>Exercises:</i> <a href="http://milton-the-cat.rocks/home/adventr.html" target="_blank">Interactive tutorials on statistics in R</a> (includes tutorials on multilevel models and growth models)<br>
-                <i>Reading:</i> <a href="http://www.personality-project.org/r/book/" target="_blank">Psychometrics in R</a><br>
-                <i>Book:</i> <a href="assets/kruschke_bayesian_in_R.pdf" target="_blank">Bayesian statistics in R</a> (plus the <a href="https://sites.google.com/site/doingbayesiandataanalysis/exercises"> 
-                solutions for the book's exercises</a>)
-            </ul>
-
-            <h5>Best coding practices:</h5>
-            <ul>
-                <i>Reading:</i> <a href="https://style.tidyverse.org/" target="_blank">Style Guide</a>: How to write code that is easy for you and others to read<br>
+            <button class="accordion">Week 5: Joining Data: More fundamentals of dplyr</button>
+            <div class="panel">
                 <ul>
-                    Chapter 2: <a href="https://style.tidyverse.org/syntax.html" target="_blank">General syntax style guide </a><br> 
-                    Chapter 4: <a href="https://style.tidyverse.org/pipes.html" target="_blank">Style guide for using pipes</a><br> 
+                    <i>Reading + exercises:</i> <a href="https://r4ds.had.co.nz/relational-data.html" target="_blank">Relational data</a><br>
+                    <i>Notes + exercises:</i> <a href="https://gupsych.github.io/data_skills/06_joins.html" target="_blank">Joining data using the dplyr's join verbs</a><br>
+                    <i>Resource:</i> <a href="assets/data-transformation.pdf" target="_blank">Cheat sheet on data transformation with dplyr</a>
                 </ul>
-            </ul>
+            </div>
 
-            <h5>Advanced topics in R:</h5>
-            <ul>
-                <i>Book:</i> <a href="http://adv-r.had.co.nz/" target="_blank">Advanced R</a>: Book on advanced topics in R, including an more in-depth discussion on the foundations of R plus chapters
-                on functional programming, metaprogramming, and performant code.  
-            </ul>
+            <button class="accordion">Week 6: Iterations, Loops, Branches, and Functions</button>
+            <div class="panel">
+                <ul>
+                    <i>Reading + exercises:</i> <a href="https://psyr.org/loops.html" target="_blank">Using loops in R</a><br>
+                    <i>Reading + exercises:</i> <a href="https://psyr.org/branches.html" target="_blank">Using branches in R</a><br>
+                    <i>Reading + exercises:</i> <a href="https://psyr.org/functions.html" target="_blank">Creating your own functions in R</a><br>
+                    <i>Notes + exercises:</i> <a href="https://gupsych.github.io/data_skills/07_functions.html" target="_blank">Iterating and more practice creating your own functions in R</a><br>
+                    <i>Reading (optional):</i> <a href="https://r4ds.had.co.nz/iteration.html" target="_blank">More about loops and iterating in R</a><br>
+                    <i>Reading (optional):</i> <a href="https://r4ds.had.co.nz/functions.html" target="_blank">More about writing your own functions in R</a><br>
+                </ul>
+            </div>
+
+            <button class="accordion">Week 7: Reproducible Workflow and Other Best Practices</button>
+            <div class="panel">
+                <ul>
+                    <i>Reading:</i> <a href="https://r4ds.had.co.nz/r-markdown.html#chunk-name" target="_blank">Using R Markdown</a><br>
+                    <i>Notes + exercises:</i> <a href="https://gupsych.github.io/data_skills/10_reproducibility.html" target="_blank">Creating reproducible code in R</a><br>
+                    <i>Reading:</i> <a href="https://whattheyforgot.org/safe-paths.html" target="_blank">How to properly set paths</a><br>
+                    <i>Slides:</i> <a href="https://whattheyforgot.org/how-to-name-files.html" target="_blank">How to name files</a><br>
+                    <i>Reading:</i> <a href="https://whattheyforgot.org/debugging-r-code.html" target="_blank">How to debug your R code</a><br>
+                    <i>Resource:</i> <a href="assets/rmarkdown-reference.pdf" target="_blank">Cheat sheet on R Markdown</a>
+                </ul>
+            </div>
+            <button class="accordion">Week 8: Version Control</button>
+            <div class="panel">
+                <ul>
+                    <i>Reading:</i> <a href="https://happygitwithr.com/big-picture.html" target="_blank">Why GitHub?</a><br>
+                    <i>Reading + exercises:</i> <a href="https://happygitwithr.com/install-intro.html" target="_blank">Installing Git (Read Chapters 4 - 7; 8 is optional)</a><br>
+                    <i>Reading + exercises:</i> <a href="https://happygitwithr.com/connect-intro.html" target="_blank">Connecting GitHub and RStudio (Chapters 9 & 12; 14 is helpful if you are having problems connecting!)</a><br>
+                    <i>Reading + exercises:</i> <a href="https://happygitwithr.com/usage-intro.html" target="_blank">Using GitHub to store R code (Read through Chapter 15; 16 and 17 are for your reference for future projects)</a><br>
+                    <i>Reading + exercises:</i> <a href="https://happygitwithr.com/git-intro.html" target="_blank">Basics of Git (Chapter 20; Chapter 21 - 23 for more advanced stuff)</a><br>
+                </ul>
+            </div>
+            <br>
+        </div>
+    </section>
+    <section class="page-section mb-0 bg-primary" id="other">
+        <div class="container">  
+            <div id="h1_other">Moving forward: Other things you should learn about R:</div>
+
+            <button class="accordion">Introductory statistics</button>
+            <div class="panel">
+                <ul>
+                    <i>Reading:</i> <a href="https://learningstatisticswithr.com/book/" target="_blank">Learning statistics with R: A tutorial for psychology students</a>: 
+                    Great book for learning how to do the stats from an introductory stats course in R<br>
+                    <ul>
+                        Chapter 1: <a href="https://learningstatisticswithr.com/book/why-do-we-learn-statistics.html" target="_blank">Why do we learn statistics?</a><br> 
+                        Chapter 2: <a href="https://learningstatisticswithr.com/book/studydesign.html" target="_blank">Introduction to research design</a><br> 
+                        Chapter 5: <a href="https://learningstatisticswithr.com/book/descriptives.html" target="_blank">Descriptive statistics</a><br> 
+                        Chapter 9 - 11: <a href="https://learningstatisticswithr.com/book/part-iv-statistical-theory.html" target="_blank">Statistical theory:</a> 
+                        <a href="https://learningstatisticswithr.com/book/probability.html" target="_blank">Introduction to probability,</a> 
+                        <a href="https://learningstatisticswithr.com/book/estimation.html" target="_blank">Estimating unknown quantities from a sample,</a> and 
+                        <a href="https://learningstatisticswithr.com/book/hypothesistesting.html" target="_blank">Hypothesis testing</a><br> 
+                        Chapter 12 - 16: Statistical tools: 
+                        <a href="https://learningstatisticswithr.com/book/chisquare.html" target="_blank">Categorical data analysis,</a> 
+                        <a href="https://learningstatisticswithr.com/book/ttest.html" target="_blank">Comparing two means,</a> 
+                        <a href="https://learningstatisticswithr.com/book/anova.html" target="_blank">Comparing several means,</a> 
+                        <a href="https://learningstatisticswithr.com/book/regression.html" target="_blank">Linear regression,</a> and 
+                        <a href="https://learningstatisticswithr.com/book/anova2.html" target="_blank">Factorial ANOVA</a><br> 
+                        Chapter 17: <a href="https://learningstatisticswithr.com/book/bayes.html" target="_blank">Bayesian statistics</a><br> 
+                    </ul>
+                    <i>Book:</i> <a href="assets/discoveringstatistics.pdf" target="_blank">Discovering statistics with R</a>: Covers similar content as <i>Learning statistics with R</i> plus much more<br>
+                    <i>Exercises:</i> <a href="http://milton-the-cat.rocks/home/adventr.html" target="_blank">Interactive tutorials for learning how to do statistics in R</a> (companion to 
+                    <a href="https://www.discoveringstatistics.com/books/an-adventure-in-statistics/" target="_blank">An Adventure in Statistics</a>, a book by Andy Fields. Book is not free, but the tutorials are!)<br>
+                </ul>
+            </div>
+
+            <button class="accordion">Advanced statistics</button>
+            <div class="panel">
+                <ul>
+                    <i>Reading + exercises:</i> <a href="https://m-clark.github.io/mixed-models-with-R" target="_blank">Mixed models in R:</a> Tutorial on how to build mixed models in R (best for people who already have some understanding of what mixed models are)<br>
+                    <i>Exercises:</i> <a href="http://milton-the-cat.rocks/home/adventr.html" target="_blank">Interactive tutorials on statistics in R</a> (includes tutorials on multilevel models and growth models)<br>
+                    <i>Reading:</i> <a href="http://www.personality-project.org/r/book/" target="_blank">Psychometrics in R</a><br>
+                    <i>Book:</i> <a href="assets/kruschke_bayesian_in_R.pdf" target="_blank">Bayesian statistics in R</a> (plus the <a href="https://sites.google.com/site/doingbayesiandataanalysis/exercises"> 
+                    solutions for the book's exercises</a>)
+                </ul>
+            </div>
+
+            <button class="accordion">Best coding practices</button>
+            <div class="panel">
+                <ul>
+                    <i>Reading:</i> <a href="https://style.tidyverse.org/" target="_blank">Style Guide</a>: How to write code that is easy for you and others to read<br>
+                    <ul>
+                        Chapter 2: <a href="https://style.tidyverse.org/syntax.html" target="_blank">General syntax style guide </a><br> 
+                        Chapter 4: <a href="https://style.tidyverse.org/pipes.html" target="_blank">Style guide for using pipes</a><br> 
+                    </ul>
+                </ul>
+            </div>
+
+            <button class="accordion">Advanced topics in R</button>
+            <div class="panel">
+                <ul>
+                    <i>Book:</i> <a href="http://adv-r.had.co.nz/" target="_blank">Advanced R</a>: Book on advanced topics in R, including an more in-depth discussion on the foundations of R plus chapters
+                    on functional programming, metaprogramming, and performant code.  
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="page-section mb-0" id="resources">
+        <div class="container">  
+        
+            <h1>General Resources</h1><br>
+
+            
+            <h3>Cheat sheets</h3>
+            <a href="https://www.rstudio.com/resources/cheatsheets/" target="_blank">Various cheat sheets</a> on a range of topics, from 
+            <a href="https://www.rstudio.com/resources/cheatsheets/#dplyr" target="_blank">dplyr</a>, 
+            <a href="https://www.rstudio.com/resources/cheatsheets/#ggplot2" target="_blank">ggplot</a>, 
+            <a href="https://www.rstudio.com/resources/cheatsheets/#rmarkdown" target="_blank">R Markdown</a>, and more!
+            
+
 
 
         </div>
     </section>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
 </body>
 </html>

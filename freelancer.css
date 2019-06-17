@@ -90,6 +90,14 @@ h1 {
   color: #156ab9;
 }
 
+#h1_other {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
 h4 {
   color: #1abc9c
 }
@@ -119,7 +127,7 @@ address {
 ol,
 ul,
 dl {
-  margin-top: 0;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -5111,6 +5119,53 @@ input[type="button"].btn-block {
     width: 100%;
   }
 }
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.5rem;
+  transition: 0.4s;
+  color: #1abc9c;
+  font-weight: 700;
+}
+
+.accordion:focus {
+  outline: 0px;
+}
+
+.accordion:after {
+  font-family: "Font Awesome 5 Free"; 
+  content: '\f067';
+  font-size: 24px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+  outline: none;
+}
+
+.active:after {
+  font-family: "Font Awesome 5 Free"; 
+  content: "\f068"; /* Unicode character for "minus" sign (-) */
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
 
 .accordion > .card {
   overflow: hidden;
@@ -10570,7 +10625,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 
 .page-section .page-section-heading {
